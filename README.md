@@ -18,7 +18,7 @@ slurm_apply(): https://www.rdocumentation.org/packages/rslurm/versions/0.6.1/top
 
 ## To install package locally
 1. Type: R
-2. Type: install.packages(c("rslrum"))
+2. Type: install.packages(c("rslurm"))
 3. If you get prompts about personal library install, type y
 
 ## How to run
