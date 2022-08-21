@@ -3,7 +3,7 @@ Scripts for testing parallel processing with R and slurm.
 
 rslurm works like the parallel package. You pass to a function a list or data frame of parameters, and the slurm_apply function will assign each call (row in your df) to a core... where you specify how many nodes you want and cores per node.
 
-The package creates and submits the sbatch files for you. Super easy.
+The package creates and submits the sbatch files for you and removes them after the run. Super easy.
 
 Tutorial:      https://cran.r-project.org/web/packages/rslurm/vignettes/rslurm.html
 
