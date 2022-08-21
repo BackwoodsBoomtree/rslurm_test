@@ -4,6 +4,7 @@ Scripts for testing parallel processing with R and slurm.
 rslurm works like the parallel package. You pass to a function a list or data frame of parameters, and the slurm_apply function will assign each call (row in your df) to a core... where you specify how many nodes you want and cores per node.
 
 Tutorial:      https://cran.r-project.org/web/packages/rslurm/vignettes/rslurm.html
+
 slurm_apply(): https://www.rdocumentation.org/packages/rslurm/versions/0.6.1/topics/slurm_apply
 
 ## To activate R module on schooner
