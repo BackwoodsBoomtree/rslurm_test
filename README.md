@@ -17,3 +17,6 @@ rslurm works like the parallel package. You pass to a function a list or data fr
 2. Type: install.packages(c("rslrum"))
 3. If you get prompts about personal library install, type y
 
+## How to run
+1. Upload your script to your desired location on the server.
+2. Type: Rscript rslurm_test.R
